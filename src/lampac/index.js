@@ -1,6 +1,6 @@
 import { createApi } from './api.js';
 
-var BASE_URL = 'https://lam.maxvol.pro'; // შეცვალე საკუთარი სერვერით თუ გაქვს
+var BASE_URL = 'https://bwa.to'; // შეცვალე საკუთარი სერვერით თუ გაქვს
 
 async function getStreams(tmdbId, mediaType, season, episode) {
     console.log('[Lampac] Request:', mediaType, tmdbId);
