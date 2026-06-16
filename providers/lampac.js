@@ -120,7 +120,7 @@ async function fetchFromBalancer(balancerUrl, tmdbId, mediaType, season, episode
     return resolved;
 }
 
-var BASE_URL = 'https://lam.maxvol.pro';
+var BASE_URL = 'https://bwa.to';
 
 async function getStreams(tmdbId, mediaType, season, episode) {
     console.log('[Lampac] Request:', mediaType, tmdbId);
@@ -144,7 +144,7 @@ async function getStreams(tmdbId, mediaType, season, episode) {
         }
         return allStreams;
     } catch(e) {
-        console.error('[Lampac] Error:', e.message);
+        box.error('[Lampac] Error:', e.message);
         return [];
     }
 }
