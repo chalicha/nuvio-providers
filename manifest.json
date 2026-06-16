@@ -639,4 +639,17 @@
       ]
     }
   ]
+},
+{
+  "id": "lampac",
+  "name": "Lampac (RU Balancers)",
+  "description": "Rezka, Collaps, Filmix, HDVB, Kodik, Alloha and more via Lampac",
+  "version": "1.0.0",
+  "author": "chalicha",
+  "supportedTypes": ["movie", "tv"],
+  "filename": "providers/lampac.js",
+  "enabled": true,
+  "formats": ["m3u8", "mp4"],
+  "logo": "https://www.google.com/s2/favicons?domain=lam.maxvol.pro&sz=128",
+  "contentLanguage": ["ru", "uk", "en"]
 }
